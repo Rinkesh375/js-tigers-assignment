@@ -7,6 +7,7 @@ import {useNavigate} from  "react-router-dom"
 import { jwtDecode } from "jwt-decode";
 
 const apiUrl = process.env.REACT_APP_API_URL;
+const clientId =  process.env.REACT_APP_CLIENT_ID;
 
 
 const GoogleLoginButton = () => {
@@ -44,7 +45,7 @@ const GoogleLoginButton = () => {
   return (
     <>
 
-      <GoogleOAuthProvider clientId={"664249885478-aop77kcbbv7kg8bi82u2i4fdhrl8fvrf.apps.googleusercontent.com"}>
+      <GoogleOAuthProvider clientId={clientId}>
       <div>
       <GoogleLogin
         onSuccess={(res) => {
