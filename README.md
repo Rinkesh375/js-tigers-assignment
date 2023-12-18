@@ -2,7 +2,7 @@
 
 This project is a simple vendor management system with essential features. Users can seamlessly log in using their Google account, and create new vendors with mandatory details such as Vendor Name, Bank Account No., Bank Name, etc. The system allows for easy vendor management by displaying a paginated list with options to edit or delete each vendor. Users can efficiently update vendor details through the edit functionality and delete vendors with confirmation. The project streamlines vendor management, offering a user-friendly interface for efficient tracking and maintenance.
 
-## live : - https://vendors-rho.vercel.app/
+## live : - https://vendor-details-management.vercel.app/
 
 ## backend : - https://vendor-details-management-backend.onrender.com
 
